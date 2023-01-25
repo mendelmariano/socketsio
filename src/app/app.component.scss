@@ -1,0 +1,42 @@
+.msg-from-me {
+    background-color: ghostwhite;
+}
+
+
+
+.containerX {
+    width: 100vw;
+    height: 100vh;
+    background: red;
+
+    .chat-messages {
+        overflow: auto;
+    }
+  
+    .messages {
+      height: calc(100% - 85px);
+      background: rgb(255, 255, 255);
+      padding: 4px;
+      overflow-y: auto;
+  
+      .message {
+        min-height: 10px;
+        background-color: grey;
+        margin-bottom: 4px;
+        padding: 8px;
+  
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+  
+    .chat {
+      padding-top: 0.75rem;
+      margin: 0;
+      height: 65px;
+      background: rgb(187, 187, 187);
+    }
+
+  }
+  
